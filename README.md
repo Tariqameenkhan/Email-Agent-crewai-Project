@@ -84,8 +84,8 @@ IMAP Server: imap.gmail.com
 - EMAIL_USER=your_email@gmail.com
 - EMAIL_PASS=your_16_digit_app_password
 - EMAIL_FETCH_MODE=first
-- <!--  EMAIL_FETCH_MODE=middle -->
-- <!--  EMAIL_FETCH_MODE=last -->
+-  EMAIL_FETCH_MODE=middle 
+-  EMAIL_FETCH_MODE=last
 
 ⚠️ Don't use your Gmail password!
 Use a Gmail App Password.
