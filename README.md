@@ -1,3 +1,7 @@
+# 🧑‍💻 Author
+Tariq Ameen — CrewAI Gmail Automation Project
+
+
 # 📧 Gmail Email Agent (CrewAI-powered)
 
 This project is an intelligent email assistant powered by [CrewAI](https://docs.crewai.com). It connects to your **Gmail inbox**, filters **spam**, detects **drafts**, flags **important emails**, and generates **professional auto-replies** — all using a team of AI agents.
@@ -80,8 +84,8 @@ IMAP Server: imap.gmail.com
 - EMAIL_USER=your_email@gmail.com
 - EMAIL_PASS=your_16_digit_app_password
 - EMAIL_FETCH_MODE=first
-- <!-- # EMAIL_FETCH_MODE=middle -->
-- <!-- # EMAIL_FETCH_MODE=last -->
+- <!--  EMAIL_FETCH_MODE=middle -->
+- <!--  EMAIL_FETCH_MODE=last -->
 
 ⚠️ Don't use your Gmail password!
 Use a Gmail App Password.
@@ -109,8 +113,6 @@ Important Notifier Agent → flags urgent/priority emails
 Reply Agent → writes short, polite replies
 
 
-# 🧑‍💻 Author
-Tariq Ameen — CrewAI Gmail Automation Project
 
 
 # 📈 To Do (optional)
