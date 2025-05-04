@@ -19,17 +19,17 @@ This project is an intelligent email assistant powered by [CrewAI](https://docs.
 
 ## 📁 Project Structure
 
-app/
-├── .env # Secure Gmail login (never commit this!)
-├── pyproject.toml # uv config
-├── src/
-│ └── app/
-│ ├── main.py # Entry point: kickoff function
-│ ├── tools/
-│ │ └── email_tools.py # Email fetching and filters
-│ └── crews/
-│ └── poem_crew/
-│ └── crew.py # AI agents definition
+- app/
+- ├── .env # Secure Gmail login (never commit this!)
+- ├── pyproject.toml # uv config
+- ├── src/
+- │ └── app/
+- │ ├── main.py # Entry point: kickoff function
+- │ ├── tools/
+- │ │ └── email_tools.py # Email fetching and filters
+- │ └── crews/
+- │ └── poem_crew/
+- │ └── crew.py # AI agents definition
 
 
 # ** 💡 Step 1: Enable App Passwords in Gmail**
@@ -76,12 +76,12 @@ IMAP Server: imap.gmail.com
 
 
 # ** 💡 Step 2: Create .env File **
-GEMINI_API_KEY=123444444444
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_16_digit_app_password
-EMAIL_FETCH_MODE=first
-<!-- # EMAIL_FETCH_MODE=middle -->
-<!-- # EMAIL_FETCH_MODE=last -->
+- GEMINI_API_KEY=123444444444
+- EMAIL_USER=your_email@gmail.com
+- EMAIL_PASS=your_16_digit_app_password
+- EMAIL_FETCH_MODE=first
+- <!-- # EMAIL_FETCH_MODE=middle -->
+- <!-- # EMAIL_FETCH_MODE=last -->
 
 ⚠️ Don't use your Gmail password!
 Use a Gmail App Password.
