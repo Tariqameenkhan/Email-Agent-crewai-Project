@@ -54,11 +54,14 @@ Google will give you a 16-character app password.
 # 💡 Enable IMAP in Gmail:
 Before connecting, make sure IMAP is enabled:
 
-Go to Gmail Settings
+Go to Gmail Settings and click all settings
 
 Click the "Forwarding and POP/IMAP" tab
 
 In the IMAP access section, select "Enable IMAP"
+
+- When I mark a message in IMAP as deleted:
+- (✅)	Auto-Expunge on - Immediately update the server. (default)
 
 Save changes
 
