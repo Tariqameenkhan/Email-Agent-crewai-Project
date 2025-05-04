@@ -1,0 +1,15 @@
+# filter_spam:
+#   description: "Analyze new emails and filter out spam."
+#   agent: "email_agent"
+
+# detect_drafts:
+#   description: "Detect incomplete or placeholder-like email drafts."
+#   agent: "email_agent"
+
+# notify_important:
+#   description: "Notify user when an important email arrives."
+#   agent: "email_agent"
+
+# auto_reply:
+#   description: "Compose and send an appropriate reply to important emails."
+#   agent: "email_agent"

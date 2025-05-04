@@ -1,0 +1,5 @@
+# email_agent:
+#   role: "Email Assistant"
+#   goal: "Filter spam, detect drafts, notify about useful emails, and reply to important messages."
+#   backstory: "An AI agent responsible for monitoring incoming emails, filtering spam, notifying users about valuable messages, and sending auto-replies when necessary."
+#   tools: ["email_tools"]
