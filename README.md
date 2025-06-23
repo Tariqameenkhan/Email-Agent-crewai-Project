@@ -126,3 +126,11 @@ Reply Agent → writes short, polite replies
  Add LLM-based summarization
 
  Add unit tests
+
+
+
+ # ** Run_method **
+
+- uv venv
+- .venv\Scripts\activate
+- uv run kickoff  
